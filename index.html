@@ -68,8 +68,9 @@
 <body>
     
   <div class="card" id="card">
-    <h2>Will you be my Valentine??</h2>
-    <p>Be honest… I already know the answer</p>
+    <h2>Will you be my Valentine, sis wami??</h2>
+    <div class="tiny"><b>Tip: Don't press 'no'</b></div>
+    <p>I already know the answer</p>
 
     <div class="btns">
       <button id="yes">Yes</button>
@@ -77,7 +78,7 @@
     </div>
 
     <div class="result" id="result"></div>
-    <div class="tiny"><b>Tip: tap "No" if you dare 👀</b></div>
+    
   </div>
 
   <script>
@@ -107,7 +108,7 @@
     noBtn.addEventListener("pointerenter", moveNoButton);
 
     yesBtn.addEventListener("click", () => {
-      result.textContent = "Faka ibele ke ntwana coz uyangthand wena🥹";
+      result.textContent = "Yaay! Ok so cela ufake izenzo ntwana(R200)";
       // Make it feel final
       yesBtn.disabled = true;
       noBtn.disabled = true;
